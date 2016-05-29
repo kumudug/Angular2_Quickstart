@@ -30,14 +30,15 @@
     "rxjs": "5.0.0-beta.6", //a polyfill for the Observables specification currently before the TC39 committee that determines standards for the JavaScript language. Developers should be able to pick a preferred version of rxjs (within a compatible version range) without waiting for Angular updates.
     "zone.js": "^0.6.12", // a polyfill for the Zone specification currently before the TC39 committee that determines standards for the JavaScript language. Developers should be able to pick a preferred version of zone.js to use (within a compatible version range) without waiting for Angular updates.
 
-    "angular2-in-memory-web-api": "0.0.7", //An Angular-supported library that simulates a remote server's web api without requiring an actual server or real http calls
+    "angular2-in-memory-web-api": "0.0.9", //An Angular-supported library that simulates a remote server's web api without requiring an actual server or real http calls
     "bootstrap": "^3.3.6"
   },
   "devDependencies": {
     "concurrently": "^2.0.0",
     "lite-server": "^2.2.0",
     "typescript": "^1.8.10",
-    "typings":"^1.0.4" 
+    //"typings":"^1.0.4" when typings was upgraded it stopped working
+    "typings":"^0.8.1"
     /*
     Many JavaScript libraries such as jQuery, the Jasmine testing library, and Angular itself, extend the JavaScript environment with features and syntax that the TypeScript compiler doesn't recognize natively. When the compiler doesn't recognize something, it throws an error.
     We use TypeScript type definition files — d.ts files — to tell the compiler about the libraries we load.

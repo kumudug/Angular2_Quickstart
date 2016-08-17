@@ -234,3 +234,4 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
+/Angular2QuickStart/QuickStart.Web/typings

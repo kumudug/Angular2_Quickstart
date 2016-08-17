@@ -1,5 +1,5 @@
 //json doesn't support comments. So this is converted using jsmin - http://www.crockford.com/javascript/jsmin.html
-//jsmin <package_commented.json >package.json
+//inst
 {
   "name": "angular2-quickstart",
   "version": "1.0.0",

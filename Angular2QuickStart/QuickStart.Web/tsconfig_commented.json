@@ -10,12 +10,12 @@
     "experimentalDecorators": true,
     "removeComments": false,
     "noImplicitAny": false
-  },
+  }/*,
   "exclude": [
     "node_modules",
     "typings/main",
     "typings/main.d.ts"
-  ]
+  ]*/
 }
 /*The core-js typings are duplicated and the browser.d.ts and main.d.ts have overlapping content.
 
